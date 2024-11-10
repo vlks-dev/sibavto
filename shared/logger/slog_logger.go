@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/fatih/color"
-	"github.com/vlks-dev/sibavto-user-grpc/utils/config"
+	"github.com/vlks-dev/sibavto/shared/utils/config"
 	"io"
 	"log"
 	"log/slog"

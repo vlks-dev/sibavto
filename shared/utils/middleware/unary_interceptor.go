@@ -3,16 +3,16 @@ package middleware
 import (
 	"context"
 	"errors"
-
+	"github.com/vlks-dev/sibavto/shared/utils/token"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )
 
 type AuthInterceptor struct {
-	jwtService *auth.JWTService
+	jwtService *token.JWTService
 }
 
-func NewAuthInterceptor(jwtService *auth.JWTService) *AuthInterceptor {
+func NewAuthInterceptor(jwtService *token.JWTService) *AuthInterceptor {
 	return &AuthInterceptor{jwtService: jwtService}
 }
 
@@ -25,9 +25,9 @@ func (a *AuthInterceptor) AuthorizationInterceptor(
 	}
 
 	// Получаем токен из метаданных
-	tokens := md["authorization"]
+	tokens := md["tokenorization"]
 	if len(tokens) == 0 {
-		return nil, errors.New("authorization token not provided")
+		return nil, errors.New("tokenorization token not provided")
 	}
 	token := tokens[0]
 
