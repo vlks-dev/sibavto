@@ -1,0 +1,592 @@
+[15:37:37.072] [91mERROR:[0m [36mfailed to ping postgres[0m [37m{
+  "url": "postgres://postgres:19911001vlks@localhost:5432/sibavto?sslmode=disable"
+}[0m
+[15:37:37.098] [91mERROR:[0m [36mPostgres pool err: [0m [37m{
+  "!BADKEY": "failed to connect to `user=postgres database=sibavto`:\n\t[::1]:5432 (localhost): dial error: dial tcp [::1]:5432: connectex: No connection could be made because the target machine actively refused it.\n\t127.0.0.1:5432 (localhost): dial error: dial tcp 127.0.0.1:5432: connectex: No connection could be made because the target machine actively refused it."
+}[0m
+[15:37:37.099] [34mINFO:[0m [36mgRPC server is running on port 50051[0m [37m{
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10T15:35:37.0999324+03:00"
+}[0m
+[15:10:10.316] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:10:10.317] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:21:21.288] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:21:21.315] [34mINFO:[0m [36mgRPC server is running on port 50051[0m [37m{
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10T15:39:21.3159723+03:00"
+}[0m
+[15:01:01.304] [35mDEBUG:[0m [36mpostgres connection before close[0m [37m{
+  "connection": {},
+  "url": "postgres://postgres:19911001vlks@localhost:5432/sibavto?sslmode=disable"
+}[0m
+[15:01:01.384] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[15:29:29.995] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:31:31.009] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:34:34.619] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:34:34.652] [34mINFO:[0m [36mgRPC server is running on port[0m [37m{
+  "!BADKEY": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10T15:47:34.6526344+03:00"
+}[0m
+[15:42:42.517] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[15:14:14.628] [35mDEBUG:[0m [36mpostgres connection before close[0m [37m{
+  "connection": {},
+  "url": "postgres://postgres:19911001vlks@localhost:5432/sibavto?sslmode=disable"
+}[0m
+[15:59:59.702] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:00:00.708] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:46:46.064] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:46:46.092] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 15:52:46"
+}[0m
+[15:57:57.724] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[15:27:27.222] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:28:28.235] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:31:31.370] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:31:31.399] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 15:53:31"
+}[0m
+[15:36:36.917] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[15:39:39.604] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:40:40.608] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:43:43.351] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:43:43.382] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 15:54:43"
+}[0m
+[15:47:47.671] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[15:10:10.338] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:11:11.341] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:15:15.460] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:15:15.487] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 15:55:15"
+}[0m
+[15:21:21.927] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[15:05:05.447] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[15:06:06.448] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[15:09:09.389] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[15:09:09.420] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 15:57:09"
+}[0m
+[15:16:16.631] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[16:50:50.688] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:51:51.694] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:02:02.056] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:02:02.084] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:04:02"
+}[0m
+[16:09:09.640] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[16:24:24.625] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:25:25.634] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:29:29.098] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:29:29.128] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:05:29"
+}[0m
+[16:34:34.263] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[16:32:32.594] [34mINFO:[0m [36mUser already exists[0m [37m{
+  "email": "kosvov@yaml.ru"
+}[0m
+[16:45:45.114] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": "no rows in result set"
+}[0m
+[16:38:38.852] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:39:39.855] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:43:43.297] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:43:43.325] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:08:43"
+}[0m
+[16:50:50.475] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": true
+}[0m
+[16:44:44.892] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:45:45.901] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:48:48.863] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:48:48.899] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:09:48"
+}[0m
+[16:53:53.894] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": true
+}[0m
+[16:15:15.222] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:16:16.229] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:19:19.115] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:19:19.146] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:11:19"
+}[0m
+[16:25:25.142] [34mINFO:[0m [36mcreating new user[0m [37m{
+  "?unique": true
+}[0m
+[16:25:25.143] [35mDEBUG:[0m [36mCreate new user[0m [37m{
+  "request": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "Sasha",
+    "surname": "Kologriviy",
+    "patronymic": "Alexandrovich",
+    "email": "123@dak.ru",
+    "roles": null,
+    "hash": "123lkopo"
+  }
+}[0m
+[16:42:42.924] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:43:43.932] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:47:47.369] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:47:47.399] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:12:47"
+}[0m
+[16:51:51.869] [35mDEBUG:[0m [36mcreating new user[0m [37m{
+  "?unique": true
+}[0m
+[16:51:51.869] [35mDEBUG:[0m [36mcreating new user[0m [37m{
+  "request": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "Sasha",
+    "surname": "Kologriviy",
+    "patronymic": "Alexandrovich",
+    "email": "123@dak.ru",
+    "roles": null,
+    "hash": "123lkopo"
+  }
+}[0m
+[16:51:51.977] [35mDEBUG:[0m [36mPassword hash computed, creating user[0m [37m{
+  "email": "123@dak.ru"
+}[0m
+[16:01:01.789] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:02:02.804] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:19:19.610] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:19:19.639] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:17:19"
+}[0m
+[16:38:38.910] [35mDEBUG:[0m [36msuccessfully committed transaction[0m [37m{
+  "stat": {}
+}[0m
+[16:38:38.910] [34mINFO:[0m [36mUser already exists[0m [37m{
+  "email": "123@dak.ru"
+}[0m
+[16:27:27.578] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:28:28.583] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:32:32.348] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:32:32.377] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:20:32"
+}[0m
+[16:36:36.978] [35mDEBUG:[0m [36msuccessfully committed transaction[0m [37m{
+  "stat": 3904700
+}[0m
+[16:36:36.978] [34mINFO:[0m [36mUser already exists[0m [37m{
+  "email": "123@dak.ru"
+}[0m
+[16:53:53.117] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[16:54:54.120] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
+[16:57:57.071] [35mDEBUG:[0m [36mpostgres pool connection established[0m [37m{
+  "health check period": 10,
+  "max connections": 8,
+  "max connections idle": 33
+}[0m
+[16:57:57.108] [34mINFO:[0m [36mgRPC Auth Server is running[0m [37m{
+  "Port:": 50051,
+  "server": {
+    "auth.AuthService": {
+      "Methods": [
+        {
+          "Name": "RegisterUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        },
+        {
+          "Name": "LoginUser",
+          "IsClientStream": false,
+          "IsServerStream": false
+        }
+      ],
+      "Metadata": "auth.proto"
+    }
+  },
+  "time:": "2024-11-10 16:20:57"
+}[0m
+[16:00:00.643] [35mDEBUG:[0m [36msuccessfully committed transaction[0m [37m{
+  "stat": 4
+}[0m
+[16:00:00.643] [34mINFO:[0m [36mUser already exists[0m [37m{
+  "email": "123@dak.ru"
+}[0m
+[16:21:21.092] [35mDEBUG:[0m [36mcreating new user[0m [37m{
+  "?unique": true
+}[0m
+[16:21:21.093] [35mDEBUG:[0m [36mcreating new user[0m [37m{
+  "request": {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "Sasha",
+    "surname": "Kologriviy",
+    "patronymic": "Alexandrovich",
+    "email": "123@muckduck.ru",
+    "roles": null,
+    "hash": "123lkopo"
+  }
+}[0m
+[16:21:21.185] [35mDEBUG:[0m [36mpassword hash computed, creating user[0m [37m{}[0m
+[16:21:21.188] [35mDEBUG:[0m [36msuccessfully committed transaction[0m [37m{
+  "stat": 3
+}[0m
+[16:41:41.472] [35mDEBUG:[0m [36msuccessfully committed transaction[0m [37m{
+  "stat": 0
+}[0m
+[21:03:03.810] [34mINFO:[0m [36mShutting down gRPC server...[0m [37m{}[0m
+[21:04:04.819] [34mINFO:[0m [36mgRPC server stopped gracefully.[0m [37m{}[0m
